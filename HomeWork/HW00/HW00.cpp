@@ -10,6 +10,13 @@ CS202 Spring 2020
 #include <string>
 
 
+
+double c_ctof(const char* str)
+{
+
+}
+
+
 int main(int argc, char* argv[])
 {
 
