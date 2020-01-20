@@ -11,6 +11,15 @@ CS202 Spring 2020
 
 double cpp_ftoc(const char* str)
 {
+	std::stringstream fen;
+
+	double x;
+
+	fen << str;
+
+	fen >> x;
+
+	return x - 32 / (9.0 / 5.0);
 
 }
 
