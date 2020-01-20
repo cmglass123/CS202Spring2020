@@ -9,7 +9,10 @@ CS202 Spring 2020
 #include <vector>
 #include <string>
 
+double cpp_ftoc(const char* str)
+{
 
+}
 
 double c_ctof(const char* str)
 {
