@@ -33,5 +33,12 @@ double c_ctof(const char* str)
 
 int main(int argc, char* argv[])
 {
+	std::vector<std::string> degrees;
 
+	for (int i = 0; i < argc; i++)
+	{
+		degrees.push_back(argv[i]);
+	}
+
+	
 }
