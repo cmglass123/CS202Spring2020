@@ -5,9 +5,15 @@
 class Foo
 {
 public:
+	Foo();
+	Foo(Foo&);
+
+	int writeX();
+
+	~Foo();
 
 private:
-	
+	int _x;
 };
 
 #endif // !Lab02
