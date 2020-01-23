@@ -5,6 +5,8 @@ Lab #02
 */
 
 #include <iostream>
+#include"Header.h"
+#include<chrono>
 
 int main()
 {
