@@ -1,7 +1,6 @@
 #pragma once
 
 #include<iostream>
-#include<chrono>
 
 #ifndef Lab02
 #define Lab02
@@ -10,14 +9,14 @@ class Foo
 {
 public:
 	Foo();
-	Foo(int);
+	Foo(int _x);
 
 	int writeX();
 
 	~Foo();
 
 private:
-	int _t;
+	int _x;
 };
 
 #endif // !Lab02

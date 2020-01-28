@@ -1,16 +1,18 @@
 #include "Header.h"
 #include <iostream>
 
-Foo::Foo() :_t(2)
+Foo::Foo() :_x(2)
 {
 	
 	//std::cout << "This is the Default constructor /n";
 }
 
-Foo::Foo(int)
+Foo::Foo(int _x)
 {
-	//std::cout << "This is the copy constructor /n";
+	std::cout << "this";
 }
+
+
 
 int Foo::writeX()
 {
