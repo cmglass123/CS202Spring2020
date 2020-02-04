@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <fstream>
+#include <string>
 
 int main()
 {
@@ -12,7 +13,13 @@ int main()
 
 	int num;
 	std::string text;
+	std::string numText;
 
+	if (ifiles)
+	{
+		std::cout << "enter a number: ";
+		std::getline(std::cin, numText);
 
+	}
 
 }
