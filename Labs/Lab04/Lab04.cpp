@@ -10,4 +10,9 @@ int main()
 
 	std::ifstream ifiles("text.txt");
 
+	int num;
+	std::string text;
+
+
+
 }
