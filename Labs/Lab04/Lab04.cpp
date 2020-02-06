@@ -25,7 +25,17 @@ int main()
 		std::cout << "Enter a line of text:";
 		std::getline(std::cin, text);
 
-		
+		for (int x = 0; x < num; x++)
+		{
+			files << text << std::endl;
+		}
+
+	}
+	else
+	{
+		std::cout << "Unable to open file try again!\n";
+	}
+	return 0;
 
 }
 
