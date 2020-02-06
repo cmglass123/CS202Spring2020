@@ -4,6 +4,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <sstream>
 
 int main()
 {
@@ -19,7 +20,12 @@ int main()
 	{
 		std::cout << "enter a number: ";
 		std::getline(std::cin, numText);
+		std::istringstream uin(numText);
+		uin >> num;
+		std::cout << "Enter a line of text:";
+		std::getline(std::cin, text);
 
-	}
+		
 
 }
+
