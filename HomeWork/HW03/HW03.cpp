@@ -14,5 +14,6 @@ using std::ifstream;
 int main() {
 	int new_line = 1;
 	int col = 1;
-
-}
+	string token;
+	ifstream ifile("Text.txt");
+	
