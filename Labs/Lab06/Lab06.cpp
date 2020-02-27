@@ -13,12 +13,25 @@ void Foo()
 	std::cout << x << std::endl;
 }
 
+namespace
+{
+	void Foos()
+	{
+		std::cout << "test";
+	}
+
+}
+
+
 int main()
 {
 	std::cout << "this is the namespace: ";
 	name::Foo();
-	std::cout << "this is the function foo not the namespace one: ";
+	std::cout << "this is the function foo not the namespace: ";
 	Foo();
+
+	Foos();
 	
+
 	return 0;
 }
